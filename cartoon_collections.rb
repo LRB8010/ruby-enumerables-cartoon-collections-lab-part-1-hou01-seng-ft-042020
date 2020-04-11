@@ -8,7 +8,7 @@ end
 end
 
 def list_dwarves(array)
-  array.each do |array|
+  array.each_with_index do |array|
    puts "#{array.capitalize}"
  end
   # Use `each_with_index` to enumerate over the provided array
